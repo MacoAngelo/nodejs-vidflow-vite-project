@@ -1,0 +1,17 @@
+npm create vite@4.4.1
+npm init @eslint/config@0.4.6
+Set-ExecutionPolicy RemoteSigned
+
+
+--G -> Deixa global
+Exemplo: npm i nodemon --G -> Permite nodemon ou invés de npx nodemon
+Problema: Faz tudo ter uma versão só e gera conflito
+
+--D -> Dependencia de desenvolvimento
+-> Adiciona o pacote, mas ele não é uma dependencia do projeto, mas sim para desenvolvimento dele
+
+--E -> Versão exata
+-> Adiciona o pacote e garante que a versão será somente aquela
+
+GIST
+-> Um Gist é basicamente um ou mais blocos de códigos, escritos em qualquer linguagem, que você pode criar no site GitHub Gist. Basta ter uma conta no GitHub, acessar o site e você poderá criar seus próprios Gists.
